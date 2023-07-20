@@ -1,0 +1,37 @@
+.myDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mySearchBar{
+    width: 60% !important;
+    margin-top:20px;
+    position: relative;
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+    border-color:#00B4CC;
+    outline: none;
+}
+
+input:focus{
+    border-color: red;
+    outline: none;
+}
+
+
+::placeholder{
+    font-weight: 520;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:oblique;
+}
+
+
+@media (max-width: 768px) {
+    .mySearchBar {
+      font-size: 17px;
+    }
+  }
