@@ -12,7 +12,7 @@ The News App is a web application that allows users to browse and read the lates
 
 # Demo
 
-![Alt Text](appPreview.gif)
+![](appPreview.gif)
 
 ## Technical Stack
 
